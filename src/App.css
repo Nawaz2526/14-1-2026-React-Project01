@@ -6,19 +6,23 @@
 body{
     height: 100%;
     width: 100%;
-}
+}*
 
 
-.perent{
-    height: 100vh;
+.parent{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+    height: 100%;
     width: 100%;
     background-color: #111;
     padding: 20px;
-
+  
+  
 }
 .card{
     height: 350px;
-    width:300px ;
+    width:280px ;
     background-color: #fff;
     border-radius: 40px;
     padding: 30px;
@@ -58,9 +62,7 @@ body{
     border-top: 1.5px solid #e1e0e0;
     padding-top: 15px;
 }
-.center{
-    
-}
+
 .center h3 {
     font-size: 18px;
     font-weight: 600;
